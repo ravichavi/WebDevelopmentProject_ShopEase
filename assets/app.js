@@ -1,0 +1,1 @@
+document.querySelectorAll('form').forEach(form=>{form.addEventListener('submit',()=>{const button=form.querySelector('button[type="submit"],button:not([type])');if(button&&button.dataset.busy!=='1'){button.dataset.busy='1';button.classList.add('is-loading');}})});
