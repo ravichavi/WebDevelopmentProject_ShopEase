@@ -89,7 +89,7 @@ ShopEase/
 ├── account.php
 ├── orders.php
 ├── contact.php
-└── database.sql
+└── shopease.sql
 ```
 
 ## ⚙️ Installation and Setup
@@ -99,7 +99,7 @@ Follow these steps to run ShopEase on your local computer.
 ### Step 1: Clone the Repository
 
 ```bash
-git clone YOUR_GITHUB_REPOSITORY_URL
+git clone https://github.com/ravichavi/WebDevelopmentProject_ShopEase.git
 ```
 
 ### Step 2: Move Project Folder
@@ -133,7 +133,7 @@ Update the database credentials in `config.php` according to your local MySQL co
 Open your browser and visit:
 
 ```text
-http://localhost/ShopEase_Fresh/
+http://localhost/ShopEase/
 ```
 
 ## 🗄️ Database Structure
